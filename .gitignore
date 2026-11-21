@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+venv_*/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets (download from the source instead of uploading)
+*.csv
+
+# Generated results (plots, trained model, predictions)
+outputs/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
