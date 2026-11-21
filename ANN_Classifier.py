@@ -178,7 +178,7 @@ def analyse_data_finaly(df: pd.DataFrame, target, out_dir, show):
         save_file(fig, os.path.join(out_dir, "03_correlation_heatmap.png"),
                   show)
 
-#pre processing 😭
+#pre processing 
 
 def select_features(df: pd.DataFrame, target, drop_cols):
     #remove target, user chosen columns and ID-like columns and constant columns
